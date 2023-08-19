@@ -1,0 +1,100 @@
+
+
+.navContainer {
+   
+    padding-left: 56px;
+    padding-right: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding-top: 2px;
+  }
+  
+  .navLinks {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navLink {
+   
+    margin-right: 30px;
+    font-weight: 600;
+    color: #868686;
+    font-size: 20px;
+  }
+  .navLink:hover{
+    text-decoration: underline;
+    color: #212020;
+    transition: 1.4s;
+  }
+  
+  .hiddenMd {
+   
+    /* display: none; */
+    
+  }
+  
+  .downloadButton {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212020;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 50px;
+    color: #e6e4e4;
+    padding: 5px 15px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.38);
+  }
+  
+  .downloadButton:hover {
+    /* Your styles for the button on hover */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  }
+  
+  @media (max-width: 860px){
+    .navContainer {
+        /* Your styles for the container */
+        /* padding-left: 56px;
+        padding-right: 6px; */
+        
+        width: 100%;
+        padding-top: 2px;
+      }
+  }
+
+ 
+  @media (max-width: 600px) {
+    .navContainer {
+      padding: 10px; 
+      
+      width:80% ;
+      align-items: center;
+    }
+  
+    .navLinks {
+      margin-top: 10px;
+      justify-content: space-between;
+      width: 100%;
+    }
+  
+    .hiddenMd {
+      display: flex; /* Show links on medium screens */
+    }
+  
+    .navLink {
+        display: none;
+      margin: 5px;
+    }
+  
+    .downloadButton {
+        
+      margin-top: 10px;
+    }
+  }
+  

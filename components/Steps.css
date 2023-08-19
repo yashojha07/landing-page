@@ -1,0 +1,61 @@
+/* steps.css */
+
+.sec {
+    font-family: 'Montserrat';
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+   
+     padding-right: '40px'; 
+     margin-top: '12px';display: 'flex';
+      flex-direction: 'column'; font-family: 'Montserrat';
+       
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    color: #535353;
+    font-weight: medium;
+  }
+  
+  .image {
+    transform: rotate(-90deg) translateX(400px) translateY(20px);
+    transition: transform 1.5s;
+  }
+  
+  .timeline-element {
+    background-color: #FAF8FF;
+    border-bottom: none;
+    border-radius: 15px;
+  }
+  
+  .timeline-icon {
+    background-color: rgb(45, 30, 99);
+    color: #000;
+  }
+  
+  .timeline-title {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .timeline-subtitle {
+    color: #535353;
+    font-weight: medium;
+  }
+
+  
+  @media (max-width:600px){
+    .sec{
+        width: 90%;
+    }
+  }

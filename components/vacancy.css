@@ -1,0 +1,65 @@
+
+.vacancy-container {
+    margin-top: 60px;
+    padding: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 85%;
+  }
+  
+  /* Heading styles */
+  .vacancy-heading {
+    transform: translateX(-200px) scale(0);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out 0.2s, opacity 0.5s ease-in-out 0.2s;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+  }
+  
+  /* Job card styles */
+  .job-card {
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out 0.4s, opacity 0.5s ease-in-out 0.4s;
+    flex: 0.33;
+    flex-direction: column;
+    background-color: #fefbec;
+    border-radius: 0.75rem;
+    padding: 1rem 1.5rem;
+    
+  }
+  
+  .job-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 0.75rem;
+  }
+  
+  .job-details {
+    list-style: disc;
+    margin-left: 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #535353;
+    margin-bottom: 0.75rem;
+  }
+  
+  .job-button {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.875rem;
+    border-radius: 2.5rem;
+    padding: 0.75rem 1rem;
+    margin-top: 1.5rem;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .job-button:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.38);
+  }

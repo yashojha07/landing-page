@@ -1,0 +1,130 @@
+
+  
+  .containers {
+    display: flex;
+    flex-direction: row;
+    background-color: #F3F1FF;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-around;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F1FF;
+    width: 40%;
+    
+    border-radius: 3xl;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .heading {
+    display: flex;
+    /* justify-content: center; */
+  }
+  
+  .heading h1 {
+    font-size: 24px;
+    font-weight: bold;
+    animation: fadeInUp 0.6s 0.2s both;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 3xl;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    margin-left: -5px;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .card-2 {
+    background-color: #FEF6F0;
+  }
+  
+  .container-lower{
+    margin-top: 22px;
+    
+
+  }
+  .lower-container{
+    overflow-y: scroll;
+    height: 80vh;
+
+  }
+  .headings{
+    color:#5a43d9 ;
+    padding-right: 10px;
+    font-size: 30px;
+    font-weight: 800;
+
+    
+  }
+
+  @media (max-width:600px){
+    .containers{
+        flex-direction: column;
+    }
+    .card-container{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    
+    .overflow{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card{
+        height: 250px;
+        overflow-y: scroll;
+    }
+
+    .container-lower{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 40vh;
+        
+    }
+
+    .lower-container{
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        gap : 5px
+
+    }
+
+    /* .over-cards{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        overflow-x: scroll;
+    } */
+    
+
+  
+  }
