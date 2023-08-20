@@ -56,7 +56,7 @@ const Appbanner = () => {
                 viewport={{ once: true }}
                 className='banner-right'>
                     <p className='banner-description'>A personalized pocket coach that provides bite-sized, science-driven tools to boost emotional intelligence.</p>
-                    <p>Think of it as a pocket cheerleader towards a better, more fulfilling.</p>
+                    <p>Think of it as a pocket cheerleaders towards a better, more fulfilling.</p>
                     <img
                         src='/assets/emote-right.png'
                         alt="hero"
